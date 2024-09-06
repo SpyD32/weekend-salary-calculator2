@@ -1,13 +1,9 @@
 button {
-    margin-left: 121px;
-    display: flex;
-    color:blue
-    background-color blueviolet;
     float: right;
 }
 
 h1 {
-    background-color: darkgrey;
+    background-color: rgb(123, 123, 123);
     width: 100%;
     margin: 0;
     text-align: center;
