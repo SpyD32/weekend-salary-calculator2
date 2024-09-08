@@ -16,3 +16,10 @@ body {
     margin: 0;
     background-color: white;
 }                   
+
+#tableBlock {
+    border-radius: 2px;
+    border-color: black;
+    border-style: solid;
+    margin-top: auto;
+}
