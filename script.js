@@ -3,15 +3,12 @@ let total = 'totalCost';
 let clear = 'clearForm'
 //this will be part of the trigger function
 //to add the row for new employee
-let html = document.getElementById('tableBlock').innerHTML
+//let html = document.getElementById('employeeRow').innerHTML
 
-function insertRow() {
+function newEmployeeRow() {
     //testing function to make sure it works.
-    console.log('row created', insertRow);
-    return insertRow;
+    //function works. Need to attach new employee row 
+    console.log('row created', newEmployeeRow);
+    return newEmployeeRow;
+    button.addEventListener(onClick());
 }
-
-//console.log("testing" , Hello, World);
-
-
-// A new employee row should be added to the table.

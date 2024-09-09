@@ -11,34 +11,53 @@
   </header>
   <main>
     <h2>Add Employee</h2>
-        <div class="employeeRow"></div>
+        <div id="newEmployeeRow"></div>
+        <form>
+          <div id="firstNameBlock">
+            <input id="firstName" placeholder="FirstName" size="15" type="text">
+          </div>
+        </form> 
+        <form>
+          <div id="lastNameBlock">
+            <input id="lastName" name="lastName" size="15" type="text">
+          </div>
+        </form>
        <div> 
-        <button onclick="insertRow()" id="submitButton">Submit</button>
+        <form>
+          <div id="IdBlock">
+            <input id="ID" name="ID" size="15" type="text">
+          </div>
+        </form> 
+        <form>
+          <div id="titleBlock">
+            <input id="title" name="title" size="15" type="text">
+          </div>
+        </form>
+        <form>
+          <div id="annualSalaryBlock">
+            <input id="annualSalary" name="annualSalary" size="15" type="text">
+          </div>
+        </form> 
+        <form>
+       <div> 
+        <button onclick="newEmployeeRow()" id="submitButton">Submit</button>
        </div>
       </form>
     <h2>Employees</h2>
-    <form>
-      <div id="firstNameBlock">
-        <table id="tableBlock">
-          <tr>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>ID</th>
-            <th>Title</th>
-            <th>Annual Salary</th>
-          </tr>
-        </table>
-        <label for="firstName">First Name</label>
-        <input id="firstName" name="firstName" size="15" type="text">
-      </div>
-    </form> 
-    <form>
-      <div id="lastNameBlock">
-        <label for="lastName">Last Name</label>
-        <input id="lastName" name="lastName" size="15" type="text">
-      </div>
-    </form>
-    <form>
+    <table>
+      <tr>
+        <th>First Name</th>
+          <td></td>
+        <th>Last Name</th>
+        <td></td>
+        <th>ID</th>
+        <td></td>
+        <th>Title</th>
+        <td></td>
+        <th>Annual Salary</th>
+      </tr>
+      <br>
+    </table>
   </main>
   <footer>
     <p>Total Monthly</p>
@@ -46,3 +65,8 @@
   <script src="script.js"></script>
 </body>
 </html>
+
+
+
+
+
