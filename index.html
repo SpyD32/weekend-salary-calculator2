@@ -11,38 +11,38 @@
   </header>
   <main>
     <h2>Add Employee</h2>
-      <form>
-        <div id="firstNameBlock">
-          <table id="tableBlock">
-            <tr>
-              <th>First Name</th>
-              <th>Last Name</th>
-              <th>ID</th>
-              <th>Title</th>
-              <th>Annual Salary</th>
-            </tr>
-          </table>
-          <label for="firstname">First Name</label>
-          <input id="user_first_name" name="user[user_first_name]" size="15" type="text">
-        </div>
-      </form>
-      <form>
-        <div id="lastNameBlock">
-          <label for="lastname">Last Name</label>
-          <input id="user_last_name" name="user[user_last_name]" size="15" type="text">
-        </div>
-      </form>
-      <form>
         <div class="employeeRow"></div>
        <div> 
-        <button id="submitButton">Submit</button>
+        <button onclick="insertRow()" id="submitButton">Submit</button>
        </div>
       </form>
     <h2>Employees</h2>
+    <form>
+      <div id="firstNameBlock">
+        <table id="tableBlock">
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Annual Salary</th>
+          </tr>
+        </table>
+        <label for="firstName">First Name</label>
+        <input id="firstName" name="firstName" size="15" type="text">
+      </div>
+    </form> 
+    <form>
+      <div id="lastNameBlock">
+        <label for="lastName">Last Name</label>
+        <input id="lastName" name="lastName" size="15" type="text">
+      </div>
+    </form>
+    <form>
   </main>
   <footer>
     <p>Total Monthly</p>
   </footer>
-  <script src="client.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
