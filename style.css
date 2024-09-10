@@ -17,9 +17,17 @@ body {
     background-color: white;
 }                   
 
-#employeeRow {
-    border-radius: 2px;
-    border-color: black;
-    border-style: solid;
-    margin-top: auto;
+.firstNameBlock {
+    display: inline-block;
+    background-color: pink;
+}
+
+
+th, tr,td {
+    
+    border: 1px solid;
+    margin-left: 2px;
+    padding: 2px;
+    width: 10%;
+   
 }
