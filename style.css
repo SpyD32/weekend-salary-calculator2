@@ -1,5 +1,6 @@
 button {
     float: right;
+    background-color:  #f8bd97;
 }
 
 h1 {
@@ -7,19 +8,24 @@ h1 {
     width: 100%;
     margin: 0;
     text-align: center;
-    color: white;
-    
+    color: #f8bd97;
+    font-family: lora;
 
+
+}
+
+h2 {
+    color: #faefeb;
 }
 
 body {
     margin: 0;
-    background-color: white;
+    background-color: #30393e;
 }                   
 
 .firstNameBlock {
     display: inline-block;
-    background-color: pink;
+    
 }
 
 
@@ -29,5 +35,14 @@ th, tr,td {
     margin-left: 2px;
     padding: 2px;
     width: 10%;
+    background-color: #988f88;
+    border-color: #f8e5d7;
    
 }
+
+p {
+    color:  #faefeb;
+    float:right
+   
+}
+
