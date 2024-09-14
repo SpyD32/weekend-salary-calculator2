@@ -1,16 +1,17 @@
 const newPerson = document.getElementById("submitButton")
 let total = 'totalCost';
 let clear = 'clearForm'
+let firstName = document.getElementById('firstName').value;
 const employeeTable = document.querySelector('table');
 
 employeeTable.innerHTML +=
     <tr>
         <td>${firstName}</td>
-        <td>${firstName}</td>
-        <td>${firstName}</td>
-        <td>${firstName}</td>
-        <td>${firstName}</td>
-        <td>${firstName}</td>
+        <td>${lastName}</td>
+        <td>${id}</td>
+        <td>${jobTitle}</td>
+        <td>${annualSalary}</td>
+        <td><button class="deleteBtn">Delete</button></td>
         
     </tr>
 //this will be part of the trigger function
