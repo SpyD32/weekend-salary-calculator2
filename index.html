@@ -13,31 +13,31 @@
     <h2>Add Employee</h2>
         <form>
           <div id="firstNameBlock">
-            <input id="firstName" placeholder="FirstName" size="15" type="text">
+            <input data-testid="firstNameInput" id="firstName" placeholder="FirstName" size="15" type="text">
           </div>
         </form> 
         <form>
           <div class="lastNameBlock">
-            <input id="lastName" placeholder="LastName" size="15" type="text">
+            <input data-testid="lastNameInput" id="lastName" placeholder="LastName" size="15" type="text">
           </div>
         </form>
        <div> 
         <form>
           <div id="IdBlock">
-            <input id="ID" placeholder="ID" size="15" type="text">
+            <input  data-testid="idInput" id="ID" placeholder="ID" size="15" type="text">
           </div>
         </form> 
         <form>
           <div id="titleBlock">
-            <input id="jobTitle" placeholder="Title" size="15" type="text">
+            <input data-testid="titleInput" id="jobTitle" placeholder="Title" size="15" type="text">
           </div>
         </form>
       <form>
           <div id="annualSalaryBlock">
-            <input id="annualSalary" placeholder="Annual Salary" size="15" type="text">
+            <input data-testid="annualSalaryInput" id="annualSalary" placeholder="Annual Salary" size="15" type="text">
           </div>
        <div> 
-        <button onclick="newEmployee(event)" id="submitButton">Submit</button>
+        <button data-testid="submitButton" onclick="newEmployee(event)" id="submitButton">Submit</button>
        </div>
       </form>
     <h2>Employees</h2>
@@ -48,7 +48,7 @@
         <td>ID</td>
         <td>Title</td>
         <td>Annual Salary</td>
-        <td></td>
+        <td><button class="deleteBtn">Delete</button></td>
       </tr>
      
     </table>

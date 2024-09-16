@@ -17,13 +17,12 @@ function newEmployee(event) {
     //function works. Need to attach new employee row 
     event.preventDefault()
 const newPerson = document.getElementById("submitButton")
-let total = 'totalCost';
-let clear = 'clearForm'
- firstName = document.getElementById('firstName').value;
-let lastName = document.getElementById('lastName').value;
-let id = document.getElementById('ID').value;
-let jobTitle = document.getElementById('jobTitle').value;
-let annualSalary = document.getElementById('annualSalary').value;
+total = 'totalCost';
+firstName = document.getElementById('firstName').value;
+lastName = document.getElementById('lastName').value;
+id = document.getElementById('ID').value;
+jobTitle = document.getElementById('jobTitle').value;
+annualSalary = document.getElementById('annualSalary').value;
 const employeeTable = document.getElementById('empTable')
     employeeTable.innerHTML += `
  <tr>
@@ -35,11 +34,15 @@ const employeeTable = document.getElementById('empTable')
     <td><button class="deleteBtn">Delete</button></td>  
 </tr>
 `;
-   
-   
-    
+  
 }
 
+function clearForm() {
+    clear = 'clearForm'
+    document.getElementById("deleteBtn")
+    console.log('deleted');
+    
+}
 
 
 //function submitForm() {
