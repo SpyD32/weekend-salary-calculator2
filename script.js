@@ -19,7 +19,7 @@ function newEmployee(event) {
 const newPerson = document.getElementById("submitButton")
 let total = 'totalCost';
 let clear = 'clearForm'
-let firstName = document.getElementById('firstName').value;
+ firstName = document.getElementById('firstName').value;
 let lastName = document.getElementById('lastName').value;
 let id = document.getElementById('ID').value;
 let jobTitle = document.getElementById('jobTitle').value;
