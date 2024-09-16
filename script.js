@@ -31,16 +31,16 @@ const employeeTable = document.getElementById('empTable')
     <td>${id}</td>
     <td>${jobTitle}</td>
     <td>${annualSalary}</td>
-    <td><button class="deleteBtn">Delete</button></td>  
+    <td><button onClick="deleteButton()" class="deleteBtn">Delete</button></td> 
+        
+        
 </tr>
 `;
   
 }
 
-function clearForm() {
-    clear = 'clearForm'
-    document.getElementById("deleteBtn")
-    console.log('deleted');
+function deleteButton() {
+    console.log('test');
     
 }
 
