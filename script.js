@@ -16,6 +16,8 @@ function newEmployee(event) {
     //testing function to make sure it works.
     //function works. Need to attach new employee row 
     event.preventDefault()
+
+event.target.innerHTML = 'click to clear row'    
 const newPerson = document.getElementById("submitButton")
 total = 'totalCost';
 firstName = document.getElementById('firstName').value;
@@ -36,12 +38,12 @@ const employeeTable = document.getElementById('empTable')
         
 </tr>
 `;
-  
+function removeRow(event) {
+    event.target.closest('tr').remove();
 }
 
-function deleteButton() {
-    console.log('test');
-    
+
+
 }
 
 
