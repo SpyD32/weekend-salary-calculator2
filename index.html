@@ -13,12 +13,12 @@
     <h2>Add Employee</h2>
         <form>
           <div id="firstNameBlock">
-            <input data-testid="firstNameInput" id="firstName" placeholder="FirstName" size="15" type="text">
+            <input data-testid="firstNameInput" id="firstName" placeholder="FirstName" size="15" type="text" (firstNameInput).not.toHaveValue()>
           </div>
         </form> 
         <form>
           <div class="lastNameBlock">
-            <input data-testid="lastNameInput" id="lastName" placeholder="LastName" size="15" type="text">
+            <input data-testid="lastNameInput" id="lastName" placeholder="LastName" size="15" type="text" >
           </div>
         </form>
        <div> 
@@ -40,6 +40,10 @@
         <button data-testid="submitButton" onclick="newEmployee(event)" id="submitButton">Submit</button>
        </div>
       </form>
+      <form>
+        <div>
+        </div>
+      </form>
     <h2>Employees</h2>
     <table id="empTable">
       <tr>
@@ -48,17 +52,21 @@
         <td>ID</td>
         <td>Title</td>
         <td>Annual Salary</td>
-        <td></td>
       </tr>
      
     </table>
   </main>
   <footer>
     <p>Total Monthly</p>
+    <p id="total-monthly"></p>
   </footer>
   <script src="script.js"></script>
 </body>
 </html>
+
+
+
+
 
 
 
